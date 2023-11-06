@@ -14,7 +14,6 @@ function App() {
     <Router>
       <div>
         <Navbar />
-        {/* <Hero /> */}
         <Routes>
           <Route path="/"  element={<Hero />} />
           <Route path="/pill-entry" element={<PillEntry />} />
